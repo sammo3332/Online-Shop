@@ -21,7 +21,7 @@ JWT-basierte Authentifizierung: Sichere Benutzeranmeldung und -registrierung.
 Um das Projekt lokal zu starten, folge diesen einfachen Schritten:
 
 Repository klonen:
-git clone https://github.com/sammo3332/sammo-online-shop.git
+git clone https://github.com/sammo3332/Online-Shop.git
 Backend und Frontend installieren: Installiere die benötigten Abhängigkeiten im Backend und Frontend:
 
 
