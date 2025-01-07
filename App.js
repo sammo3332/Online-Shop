@@ -6,7 +6,7 @@ import './App.css';
 // Produkte
 const allProducts = [
   { name: "iphone_16 pro max", price: 19.99, description: "Das ist ein Iphone.", image: "/images/iphone_16 pro max.jpg" },
-  { name: "Camera 3", price: 1199.99, description: "Eine Kamera mit 4K-Video.", image: "/images/camera_3.jpg" },
+  { name: "Camera 3", price: 1199.99, description: "Eine Kamera mit 4K-Video.", image: "/images/Camera_3.jpg" },
   { name: "laptop 7", price: 1499.99, description: "Ein schneller Laptop.", image: "/images/laptop_7.jpg" },
   { name: "Iphone 15", price: 1500.99, description: "Schönes Handy", image: "/images/iphone_15.jpg" },
   { name: "iphone_13 pro max", price: 1119.99, description: "Ein iPhone.", image: "/images/iphone_13 pro max.jpg" },
