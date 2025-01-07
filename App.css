@@ -1,4 +1,4 @@
-/*hier r Allgemeine Stile */
+/* Allgemeine Stile */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
@@ -12,18 +12,18 @@ body {
   padding: 20px;
 }
 
-/*der  Kopfzeile */
+/* Kopfzeile */
 .header {
   margin-bottom: 20px;
 }
 
-/* Obere Leiste (Sprache, Konto, uund Warenkorb) */
+/* Obere Leiste (Sprache, Konto und Warenkorb) */
 .top-bar {
-   display: flex;
+  display: flex;
   justify-content: space-between;
-    background-color: #eee;
+  background-color: #eee;
   padding: 10px 20px;
-     font-size: 0.9rem;
+  font-size: 0.9rem;
   color: #666;
 }
 
@@ -36,18 +36,18 @@ body {
   margin-left: 20px;
 }
 
-/*    Haupt-Header mit Logo und Navigation */
+/* Haupt-Header mit Logo und Navigation */
 .main-header {
-     display: flex;
+  display: flex;
   justify-content: space-between;
-   align-items: center;
+  align-items: center;
 }
 
 .main-header h1 {
   font-size: 2.5rem;
 }
 
-    .main-nav {
+.main-nav {
   display: flex;
   gap: 15px;
 }
@@ -62,7 +62,7 @@ body {
   text-decoration: underline;
 }
 
-    /* Heldenbereich */
+/* Heldenbereich */
 .hero-section {
   display: flex;
   justify-content: space-around;
@@ -70,9 +70,9 @@ body {
 }
 
 .hero-item {
-   flex: 1;
+  flex: 1;
   margin: 0 10px;
-    padding: 20px;
+  padding: 20px;
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -87,9 +87,9 @@ body {
 
 .product-card {
   background-color: white;
-border: 1px solid #ddd;
-border-radius: 5px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Fußzeile */
@@ -105,3 +105,48 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-header h1 {
+    font-size: 2rem;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-card {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .footer {
+    text-align: left;
+  }
+}
